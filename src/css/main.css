@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(182, 182, 182);
+}
+
+.firstPage {
+    max-height: 100vh;
+    overflow: hidden;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: #111;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
+}
+
+.row {
+    display: flex;
+    justify-content: center; 
+}
+
+@keyframes blink {
+    0% {opacity: 1}
+    75% {opacity: 0.5}
+    100% {opacity: 1}
+}
+
+
+.logoletter {
+    font-size: 40px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 100px;
+    color: #fff;
+    animation: none;
+    text-shadow: 0 0 10px #23b7e2e0;
+    z-index: 2;
+    text-decoration: none;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: #fff;
+}
