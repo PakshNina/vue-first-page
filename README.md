@@ -1,4 +1,4 @@
-# vue-first-page
+# Ninucium.ru start page
 First page with vue js (CDN)
 
 Current project:
